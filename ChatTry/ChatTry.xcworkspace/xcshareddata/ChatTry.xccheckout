@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C5F0CBE8-113F-4ABC-BDAB-AB4F460D8D76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChatTry</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE26756EE9ECA2EFCF28EA2A9A2FEB9578BF0A2D</key>
+		<string>https://github.com/DaniyalRaza/SwiftChat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChatTry/ChatTry.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE26756EE9ECA2EFCF28EA2A9A2FEB9578BF0A2D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DaniyalRaza/SwiftChat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE26756EE9ECA2EFCF28EA2A9A2FEB9578BF0A2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE26756EE9ECA2EFCF28EA2A9A2FEB9578BF0A2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftChat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -27,13 +27,13 @@ class ViewController: JSQMessagesViewController,JSQMessagesCollectionViewDelegat
         
         
         //Change this for custom Avatar Sizes
-        if(!NSUserDefaults.standardUserDefaults().boolForKey("incomingAvatarSetting")){
-            self.collectionView.collectionViewLayout.incomingAvatarViewSize=CGSizeZero
-        }
-        
-        if(!NSUserDefaults.standardUserDefaults().boolForKey("outgoingAvatarSetting")){
-            self.collectionView.collectionViewLayout.outgoingAvatarViewSize=CGSizeZero
-        }
+//        if(!NSUserDefaults.standardUserDefaults().boolForKey("incomingAvatarSetting")){
+//            self.collectionView.collectionViewLayout.incomingAvatarViewSize=CGSizeZero
+//        }
+//        
+//        if(!NSUserDefaults.standardUserDefaults().boolForKey("outgoingAvatarSetting")){
+//            self.collectionView.collectionViewLayout.outgoingAvatarViewSize=CGSizeZero
+//        }
         
         
         //Change this for show Earlier Messages Header
@@ -139,11 +139,11 @@ class ViewController: JSQMessagesViewController,JSQMessagesCollectionViewDelegat
     
     //Sets sender Id and Display Name
     func senderId() -> String! {
-            return "daniyal11"
+            return "053496-4509-289"
     }
     
     func senderDisplayName() -> String! {
-            return "Daniyal Raza"
+            return "Daniyal"
     }
     
     
@@ -186,16 +186,16 @@ class ViewController: JSQMessagesViewController,JSQMessagesCollectionViewDelegat
         
         var message:JSQMessage=self.demoData.messages.objectAtIndex(indexPath.item) as JSQMessage
         
-        if(message.senderId==self.senderId()){
-            if(!NSUserDefaults.standardUserDefaults().boolForKey("outgoingAvatarSetting")){
-                return nil
-            }
-        }
-        else{
-            if(!NSUserDefaults.standardUserDefaults().boolForKey("incomingAvatarSetting")){
-                return nil
-            }
-        }
+//        if(message.senderId==self.senderId()){
+//            if(!NSUserDefaults.standardUserDefaults().boolForKey("outgoingAvatarSetting")){
+//                return nil
+//            }
+//        }
+//        else{
+//            if(!NSUserDefaults.standardUserDefaults().boolForKey("incomingAvatarSetting")){
+//                return nil
+//            }
+//        }
         
         var imageDict=self.demoData.avatars as NSDictionary
         
